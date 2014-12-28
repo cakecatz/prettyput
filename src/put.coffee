@@ -20,7 +20,7 @@ module.exports = {
 			this.p '}'
 	a: (arr)->
 		for v, i in arr
-			this.p i + ' -> ' + v
+			this.p '[' + i + '] -> ' + v
 	w: (obj)->
 		this.p '-> ' + obj + ' <-'
 	n: ->
