@@ -1,6 +1,6 @@
 {
   "name": "prettyput",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Print Object,String,Array into console",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "author": "Ryo Narita",
   "keyword": "print,console.log",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cakecatz/prettyput.git"
+  }
 }
