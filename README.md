@@ -33,7 +33,7 @@ output
     }
 
 ###For Array  
-    var arr = [6,4,3,9,5]
+    var arr = [6,4,3,9,5];
     p.a(arr);
 
 output
