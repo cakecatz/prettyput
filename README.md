@@ -1,11 +1,11 @@
-#Usage
+# Usage
 Put `var p = require('prettyput')` into your source code.  
-###For String,Object,Array... 
+### For String,Object,Array... 
     p.p(obj);
     p.pp([str,obj,arr]);
 Output is just like console.log.  
 
-###For Object  
+### For Object  
     var obj =
     {
       a:'A',
@@ -32,7 +32,7 @@ output
       }
     }
 
-###For Array  
+### For Array  
     var arr = [6,4,3,9,5];
     p.a(arr);
 
@@ -45,7 +45,7 @@ output
     [4] -> 5
 
 
-###For Error
+### For Error
     p.e(err);
 
 Check err value and output it when err contain some value.
